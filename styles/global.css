@@ -9,23 +9,16 @@
  * and is available for your use
  * */
 
-body{
-    height: 100%;
-    width: 100%;
-    min-height: 100vh;
-    background-color: whitesmoke;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
 }
-header{
-    width: 100%;
-    height: 15vh;
-    background-color: rgba(255, 255, 255, 0.74);
-    box-shadow: 0px 7px 24px rgb(163, 161, 161);
-}
-.heading{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px;
+header {
+  background-color: black;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
 }
 img{
   width: 80px;
@@ -33,43 +26,37 @@ img{
   border-radius: 8px;
   object-fit: cover;
 }
-.Portfolio{
-    margin: 0;
-    font-size: 24px;
-}
-.personal-info{
-  margin-top: 8px;
+nav {
+  background-color: gray;
   display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  font-size: 14px;
+  justify-content: center;
+  padding: 10px;
 }
-.personal-info a{
-  color: blue;
+nav a {
+  color: white;
+  margin: 0 15px;
   text-decoration: none;
+  font-weight: bold;
 }
-
-.details{
-  margin-top: 20px;
-  margin-left: 20px;
+nav a:hover {
+  color: yellow;
 }
-.education{
-  margin-left: 20px;
-  margin-top: 20px;
+section {
+  padding: 40px;
+  text-align: center;
 }
-.experience{
-  margin-left: 20px;
-  margin-top: 20px;
+.project {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
 }
-.exp-one{
-  margin-top: 10px;
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
 }
-.exp-two{
-  margin-top: 10px;
-}
-.skills{
-  margin-left: 20px;
-  margin-top: 20px;
-}
-  
-  
